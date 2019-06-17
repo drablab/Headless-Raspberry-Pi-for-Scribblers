@@ -9,7 +9,7 @@ Useful link: https://www.raspberrypi.org/documentation/remote-access/ip-address.
 Use a usb-SDcard adaptor and read the raspberrypi's SD card. 
 Go to the folder ```/boot``` and create a new file named ```wpa_supplicant.conf```
 
-Put in the conetent:
+Put in the content:
 ```
 network={
     ssid="wifi/internet name"
