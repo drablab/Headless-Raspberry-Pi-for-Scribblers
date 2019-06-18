@@ -1,8 +1,8 @@
 # Headless-Raspberry-Pi-for-Scribblers
 Build an interface to make it straightforward for students to configure Scribblers via Raspberry Pi and to program the robot in class.
-
 Useful link: https://www.raspberrypi.org/documentation/remote-access/ip-address.md
 
+The instructions are settup for:
 
 #### Headless Connection to Wi-Fi 
 
@@ -21,3 +21,18 @@ Save it. Plug the SD card back in Raspberrypi and run it.
 
 References:
 1) https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/setting-up-wifi-with-occidentalis
+
+
+#### Obtaining the IP addr. of raspberrypi
+
+On the computer, run command:
+```sudo nano /media/stuadmin/root/etc/rc.local```
+
+Add these two lines of code into ```rc.local```:
+```sleep 30s```
+```hostname -I > /home/pi/Desktop/raspIP.txt```
+The first line gives the pi some time to connect to the internet, and the second line saves its ip address into the .txt file on Raspberry pi's Desktop.
+
+References:
+1) https://www.raspberrypi.org/documentation/linux/usage/rc-local.md
+
