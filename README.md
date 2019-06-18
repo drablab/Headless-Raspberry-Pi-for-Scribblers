@@ -33,6 +33,21 @@ Add these two lines of code into ```rc.local```:
 ```hostname -I > /home/pi/Desktop/raspIP.txt```
 The first line gives the pi some time to connect to the internet, and the second line saves its ip address into the .txt file on Raspberry pi's Desktop.
 
+Plug the SD back into Raspberry pi and boot it. Wait for a minute to let the program obtain the ip. 
+
+Load the SD card into the computer and obtrain the ip addr.
+
 References:
 1) https://www.raspberrypi.org/documentation/linux/usage/rc-local.md
+
+#### SSH Rasperrypi
+Run the command with the obtained ip:
+```ssh pi@10.10.159.161```
+
+The default username/passord should be pi/raspberry.
+
+
+
+
+
 
