@@ -47,8 +47,4 @@ Run the command with the obtained ip:
 
 The default username/passord should be pi/raspberry.
 
-
-
-
-
-
+Finally, access the pi terminal.
