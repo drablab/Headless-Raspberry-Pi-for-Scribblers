@@ -29,8 +29,11 @@ On the computer, run command:
 ```sudo nano /media/stuadmin/root/etc/rc.local```
 
 Add these two lines of code into ```rc.local```:
+
 ```sleep 30s```
+
 ```hostname -I > /home/pi/Desktop/raspIP.txt```
+
 The first line gives the pi some time to connect to the internet, and the second line saves its ip address into the .txt file on Raspberry pi's Desktop.
 
 Plug the SD back into Raspberry pi and boot it. Wait for a minute to let the program obtain the ip. 
