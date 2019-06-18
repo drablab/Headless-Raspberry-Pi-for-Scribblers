@@ -35,7 +35,8 @@ The first line gives the pi some time to connect to the internet, and the second
 
 Plug the SD back into Raspberry pi and boot it. Wait for a minute to let the program obtain the ip. 
 
-Load the SD card into the computer and obtrain the ip addr.
+Load the SD card into the computer and obtrain the ip addr. Press ```Ctrl-X``` and ```y``` and ``` enter``` to save the modied changes.
+
 
 References:
 1) https://www.raspberrypi.org/documentation/linux/usage/rc-local.md
