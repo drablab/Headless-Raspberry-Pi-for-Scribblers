@@ -16,15 +16,14 @@ network={
     psk="Password"
 }
 ```
-
-Save it. Plug the SD card back in Raspberrypi and boot the pi. 
+Note that ```ssid``` is your the wifi name and ```psk``` is the password of the wifi that you're connecting to (both your computer and raspberrypi)
+Save the file. Plug the SD card back in Raspberrypi and boot the pi. 
 
 References:
 1) https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/setting-up-wifi-with-occidentalis
 
 
 #### Obtaining the IP addr. of raspberrypi
-
 On the computer, run command:
 ```sudo nano /media/stuadmin/root/etc/rc.local```
 
