@@ -17,7 +17,7 @@ network={
 }
 ```
 
-Save it. Plug the SD card back in Raspberrypi and run it. 
+Save it. Plug the SD card back in Raspberrypi and boot the pi. 
 
 References:
 1) https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/setting-up-wifi-with-occidentalis
