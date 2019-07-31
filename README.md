@@ -6,6 +6,8 @@ The hardware used for this settup are:
 Raspberry pi 3b+, a computer with Ubuntu Linux
 
 #### Headless Connection to Wi-Fi 
+This step writes a boot program into the raspberrypi so it connects to the desired wifi at boot up automatically. 
+
 Use a usb-SDcard adaptor and read the raspberrypi's SD card. 
 Go to the folder ```/boot``` and create a new file named ```wpa_supplicant.conf```
 
@@ -24,6 +26,8 @@ References:
 
 
 #### Obtaining the IP addr. of raspberrypi
+This step saves the IP addr in the SD card in order to complete the last step of ssh(secured shell) connenction.
+
 On the computer, run command:
 ```sudo nano /media/stuadmin/root/etc/rc.local```
 
@@ -37,16 +41,17 @@ The first line gives the pi some time to connect to the internet, and the second
 
 Plug the SD back into Raspberry pi and boot it. Wait for a minute to let the program obtain the ip. 
 
-Load the SD card into the computer and obtrain the ip addr. Press ```Ctrl-X``` and ```y``` and ``` enter``` to save the modied changes.
-
+Load the SD card into the computer and obtrain the ip addr. Press ```Ctrl-X``` and ```y``` and ``` enter``` to save the modied changes in the default linux nano editor.
 
 References:
 1) https://www.raspberrypi.org/documentation/linux/usage/rc-local.md
 
 #### SSH Rasperrypi
-Run the command with the obtained ip:
+This step allows one to gain full access to a rasberrypi terminal on a Ubuntu linux computer.
+
+Run the command with the obtained ip(the ip here is 10.10.159.161):
 ```ssh pi@10.10.159.161```
 
-The default username/passord should be pi/raspberry.
+To log in, the default username/passord should be pi/raspberry.
 
 Finally, access the pi terminal.
