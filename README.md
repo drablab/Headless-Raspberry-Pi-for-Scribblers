@@ -1,6 +1,6 @@
 # Headless-Raspberry-Pi-for-Scribblers
 Build an interface to make it straightforward for students to configure Scribblers via Raspberry Pi and to program the robot in class.
-Useful link: https://www.raspberrypi.org/documentation/remote-access/ip-address.md
+Useful link for wireless connection in general: https://www.raspberrypi.org/documentation/remote-access/ip-address.md
 
 The hardware used for this settup are:
 Raspberry pi 3b+, a computer with Ubuntu Linux
